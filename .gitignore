@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+
+# Project instructions (contains operational details, not portfolio content)
+INSTRUCTIONS.md
+
+# Data files (too large for git, and Kaggle TOS may restrict redistribution)
+data/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+
+# Environment files
+.env
+
+# Kaggle credentials (safety net — these shouldn't be in the project folder, but just in case)
+kaggle.json
+
+# Model outputs that are too large (keep smaller summary outputs)
+outputs/*.pkl
+outputs/*.joblib
