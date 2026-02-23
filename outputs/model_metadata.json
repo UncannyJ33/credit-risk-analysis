@@ -1,6 +1,6 @@
 {
-  "model_name": "RF + Class Weight",
-  "threshold": 0.3,
+  "model_name": "XGB + Class Weight",
+  "threshold": 0.4,
   "cost_ratio": 5,
   "train_rows": 216709,
   "test_rows": 54178,
@@ -60,23 +60,26 @@
     "sub_grade_numeric"
   ],
   "n_features": 53,
+  "scale_pos_weight": 3.428,
   "best_params": {
-    "n_estimators": 200,
-    "min_samples_split": 20,
-    "min_samples_leaf": 8,
-    "max_features": "log2",
-    "max_depth": null
+    "subsample": 0.8,
+    "n_estimators": 300,
+    "min_child_weight": 7,
+    "max_depth": 3,
+    "learning_rate": 0.05,
+    "gamma": 0.1,
+    "colsample_bytree": 1.0
   },
   "performance": {
-    "roc_auc": 0.7151,
-    "pr_auc": 0.4119,
-    "precision": 0.3046,
-    "recall": 0.835,
-    "f1": 0.4464,
-    "cost_5to1": 33419,
-    "tp": 10216,
-    "fp": 23324,
-    "fn": 2019,
-    "tn": 18619
+    "roc_auc": 0.7175,
+    "pr_auc": 0.4176,
+    "precision": 0.3088,
+    "recall": 0.8235,
+    "f1": 0.4492,
+    "cost_5to1": 33346,
+    "tp": 10076,
+    "fp": 22551,
+    "fn": 2159,
+    "tn": 19392
   }
 }
