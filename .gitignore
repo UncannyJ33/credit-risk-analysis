@@ -1,8 +1,9 @@
 # Virtual environment
 .venv/
 
-# Project instructions (contains operational details, not portfolio content)
+# Project instructions and session handoff (operational, not portfolio content)
 INSTRUCTIONS.md
+PROGRESS.md
 
 # Data files (too large for git, and Kaggle TOS may restrict redistribution)
 data/
