@@ -140,4 +140,12 @@ credit-risk-analysis/
 
 ---
 
+---
+
+## Development Notes
+
+This project was built with [Claude Code](https://claude.ai/claude-code), Anthropic's agentic coding assistant. The project plan was designed using **Claude Opus**, with deliberate human-in-the-loop breakpoints inserted at key decision points — including imbalance strategy selection, threshold calibration, and model architecture comparison — to allow human review and optimization before proceeding to subsequent stages. This approach ensured that analytical judgement calls were validated rather than fully automated.
+
+---
+
 *Dataset source: [Lending Club Loan Data on Kaggle](https://www.kaggle.com/datasets/ranadeep/credit-risk-dataset). Data files are excluded from this repository per Kaggle terms of service.*
