@@ -27,3 +27,6 @@ kaggle.json
 # Model outputs that are too large (keep smaller summary outputs)
 outputs/*.pkl
 outputs/*.joblib
+
+# Portfolio picks — local working folder, not for version control
+portfolio_picks/
